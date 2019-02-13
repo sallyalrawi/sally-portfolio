@@ -1,4 +1,63 @@
 body{
-    background-image:url(Images/b.g.jpg); 
+    background-image:url(Images/image.jpg); 
     background-size:100% auto;
 }
+.container{
+    margin-top: 50px;
+}
+.header .profile-content .name {
+    color:white;
+    font-size: 38px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+  }
+  
+  .header .profile-content .desc {
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+.header .profile-image {
+    margin-right: 50px;
+    border: 3px solid white;
+    margin-left: 30px;
+  }
+  .card {
+    width: 85vw;
+    float:left; 
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    margin-right: 20px;
+    margin-left:10px;
+    margin-bottom: 50 px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+ 
+  .sections-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section .section-inner {
+  
+    padding: 30px;
+    margin-top:-130px;
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+    float: right;;
+    
+  }
+  .section .heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 24px;
+  }
+
+  
