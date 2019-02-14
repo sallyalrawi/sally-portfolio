@@ -1,122 +1,121 @@
-body{
-    background-image:url(Images/image.jpg); 
-    background-size:100% auto;
+body {
+  background-image: url(Images/image.jpg);
+  background-size: 100% auto;
 }
-.container{
-    margin-top: 50px;
+.container {
+  margin-top: 50px;
 }
 .header .profile-content .name {
-    color:white;
-    font-size: 38px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    font-family: 'Times New Roman', Times, serif ;
-  }
-  
-  .header .profile-content .desc {
-    color: white;
-    font-family: 'Times New Roman', Times, serif ;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-
-.header .profile-image {
-    margin-right: 50px;
-    border: 3px solid white;
-    margin-left: 30px;
-  }
-  a.btn-cta-primary, .btn-cta-primary {
-    background: white;
-    border:rgb(74, 139, 201);
-    color:rgb(74, 139, 201);
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif ;
-  }
-  
-  .card{
-    width: 85vw;
-    float:left; 
-    display: flex;
-    flex-direction: column;
-    align-content:center;
-    margin-right: 20px;
-    margin-left:10px;
-    margin-bottom: 50 px;
-    font-family:'Times New Roman', Times, serif ;
+  color: white;
+  font-size: 38px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 
- 
-  .sections-wrapper {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .section .section-inner {
+.header .profile-content .desc {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.header .profile-image {
+  margin-right: 50px;
+  border: 3px solid white;
+  margin-left: 30px;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: rgb(213, 222, 231);
+  border: rgb(74, 139, 201);
+  color: rgb(74, 139, 201);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+  width: 85vw;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 50 px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section .section-inner {
+  padding: 30px;
+  margin-top: -130px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+}
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 24px;
+}
+#resume,
+embed {
+  width: 100%;
+  height: 300%;
+}
+.contact-resume {
+  width: 85vw;
+  display: flex;
+  margin-top: 70 px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 50 px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top:50px; 
+}
+.cards {
+  width: 50%;
+  float: left;
+  background-color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 50 px;
+  font-family: "Times New Roman", Times, serif;
+}
+.cards2 {
+  width: 50%;
+  height: 50%;
+  float: right;
+  background-color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 50 px;
+  font-family: "Times New Roman", Times, serif;
   
-    padding: 30px;
-    margin-top:-130px;
-    color: white;
-    font-family:'Times New Roman', Times, serif ;
-    float: right;;
-    
-  }
-  .section .heading {
-    margin-top: 0;
-    margin-bottom: 30px;
-    color:white;
-    font-size: 24px;
-  }
-  #resume , embed{
-      width: 100%;
-      height: 300%;
-  }
-  .contact-resume {
-    width: 85vw;
-    display: flex;
-    flex-direction: column;
-    align-content:center;
-    margin-right: 20px;
-    margin-left:10px;
-    margin-bottom: 50 px;
-    font-family:'Times New Roman', Times, serif ;
-  }
-  .cards{
-    width:50%;
-    float: left;
-    background-color:white; 
-    display: inline-flex;
-    flex-direction:column;
-    align-content:center;
-    margin-right: 20px;
-    margin-left:10px;
-    margin-bottom: 50 px;
-    font-family:'Times New Roman', Times, serif ;
-  }
-  .cards2{
-    width:50%;
-    float: right;
-    background-color:white; 
-    display: inline-flex;
-    flex-direction:column;
-    align-content:center;
-    margin-right: 20px;
-    margin-left:10px;
-    margin-bottom: 50 px;
-    font-family:'Times New Roman', Times, serif ;
-  }
-  .footer {
-    width: 100vw;
-    padding-top: 90px;
-    padding-bottom: 0px;
-    font-size: 12px;
-    color: white;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    clear: both;
-  }
-  
-  
+}
+.footer {
+  width: 100vw;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  clear: both;
+}
